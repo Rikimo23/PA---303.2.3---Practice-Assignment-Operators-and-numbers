@@ -1,32 +1,32 @@
 public class incrementexample {
 
     public static void main(String[] args) {
-        // Initialize a variable
+
         int count = 0;
 
-        // Method 1: Using the increment operator ++
+
         System.out.println("Initial value (using ++): " + count);
-        count++;  // Increment using ++
+        count++;
         System.out.println("Value after increment (using ++): " + count);
-        count++;  // Increment using ++
+        count++;
         System.out.println("Value after another increment (using ++): " + count);
-        System.out.println(); // Blank line for clarity
+        System.out.println();
 
-        // Method 2: Using the compound assignment operator +=
-        count = 0; // Reset count
+
+        count = 0;
         System.out.println("Initial value (using +=): " + count);
-        count += 1;  // Increment using +=
+        count += 1;
         System.out.println("Value after increment (using +=): " + count);
-        count += 1;  // Increment using +=
+        count += 1;
         System.out.println("Value after another increment (using +=): " + count);
-        System.out.println(); // Blank line for clarity
+        System.out.println();
 
-        // Method 3: Using the traditional addition operator +
-        count = 0; // Reset count
+
+        count = 0;
         System.out.println("Initial value (using +): " + count);
-        count = count + 1;  // Increment using +
+        count = count + 1;
         System.out.println("Value after increment (using +): " + count);
-        count = count + 1;  // Increment using +
+        count = count + 1;
         System.out.println("Value after another increment (using +): " + count);
     }
 
